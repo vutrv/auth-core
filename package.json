@@ -1,7 +1,11 @@
 {
   "name": "@vutrv/auth-core",                          
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Authentication module with JWT and bcrypt for NodeJS app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vutrv/auth-core.git"
+  },
   "main": "dist/index.js",                     
   "types": "dist/index.d.ts",                  
   "scripts": {
