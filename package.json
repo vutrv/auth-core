@@ -1,0 +1,27 @@
+{
+  "name": "@vutrv/auth-core",                          
+  "version": "1.0.2",
+  "description": "Authentication module with JWT and bcrypt for NodeJS app",
+  "main": "dist/index.js",                     
+  "types": "dist/index.d.ts",                  
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "vutrv",
+  "license": "MIT",
+  "keywords": ["auth", "jwt", "bcrypt", "express", "typescript"],
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/node": "^22.15.29",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
